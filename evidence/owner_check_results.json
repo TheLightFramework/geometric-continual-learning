@@ -1,0 +1,3367 @@
+{
+  "runs": {
+    "development/79801/baseline": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 127,
+          "accuracy": 0.49609375,
+          "floor": 0.484375,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.484375,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 127,
+          "accuracy": 0.49609375,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.484375
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.984375,
+          "false_unknown": 0.015625,
+          "absent": 0.0078125,
+          "copied_code": 0.9921875,
+          "pair_accuracy": 0.0078125,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.03125,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 62,
+          "accuracy": 0.484375,
+          "floor": 0.46875,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.46875,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.03125,
+          "present": 0.5,
+          "false_unknown": 0.453125,
+          "absent": 0.46875,
+          "copied_code": 0.484375,
+          "pair_accuracy": 0.015625,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.03125,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 257,
+          "accuracy": 0.501953125,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.515625,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.9921875,
+          "false_unknown": 0.0078125,
+          "absent": 0.01171875,
+          "copied_code": 0.98828125,
+          "pair_accuracy": 0.00390625,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.03125,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.368942428380251,
+        "cosmopedia": 2.2713873218744993
+      },
+      "gate": {},
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.023327752947807312,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 63,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.07291223108768463,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.35355730541050434,
+          "unchanged_first_token": 255,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79801/POS": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 62,
+          "accuracy": 0.484375,
+          "floor": 0.46875,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.46875,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.46875,
+          "present": 0.96875,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 0.984375,
+          "pair_accuracy": 0.0,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3645122833549976,
+        "cosmopedia": 2.270979566499591
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.027990318834781647,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.07510101795196533,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.11335544288158417,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79801/EASY": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 64,
+          "accuracy": 0.5,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.515625,
+            "canonical/plain/unshared": 0.484375
+          },
+          "capped": 0,
+          "owner_perfect": 0.09375,
+          "present": 0.59375,
+          "false_unknown": 0.40625,
+          "absent": 0.40625,
+          "copied_code": 0.59375,
+          "pair_accuracy": 0.046875,
+          "pairs": 64,
+          "pair_floor": 0.03125,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0625,
+            "canonical/plain/unshared": 0.03125
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3642220310866833,
+        "cosmopedia": 2.2708049062639475
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.023444563150405884,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.07300135493278503,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.13646377623081207,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79801/CHECK": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 125,
+          "accuracy": 0.48828125,
+          "floor": 0.453125,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.453125,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 251,
+          "accuracy": 0.98046875,
+          "floor": 0.96875,
+          "cells": {
+            "canonical/K/shared_four_letters": 1.0,
+            "assigned/K/shared_four_letters": 0.96875,
+            "canonical/K/unshared": 0.96875,
+            "assigned/K/unshared": 0.984375
+          },
+          "capped": 0,
+          "owner_perfect": 0.9375,
+          "present": 0.9609375,
+          "false_unknown": 0.0234375,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.9609375,
+          "pairs": 128,
+          "pair_floor": 0.9375,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 1.0,
+            "assigned/K/shared_four_letters": 0.9375,
+            "canonical/K/unshared": 0.9375,
+            "assigned/K/unshared": 0.96875
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 367,
+          "accuracy": 0.716796875,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.53125,
+            "find/plain/shared_four_letters": 0.921875,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.859375,
+            "retrieve/plain/unshared": 0.53125,
+            "find/plain/unshared": 0.9375,
+            "retrieve/N/unshared": 0.53125,
+            "find/N/unshared": 0.921875
+          },
+          "capped": 0,
+          "owner_perfect": 0.03125,
+          "present": 0.43359375,
+          "false_unknown": 0.56640625,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.43359375,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0625,
+            "find/plain/shared_four_letters": 0.84375,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.71875,
+            "retrieve/plain/unshared": 0.0625,
+            "find/plain/unshared": 0.875,
+            "retrieve/N/unshared": 0.0625,
+            "find/N/unshared": 0.84375
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 58,
+          "accuracy": 0.453125,
+          "floor": 0.40625,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.40625,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.390625,
+          "present": 0.84375,
+          "false_unknown": 0.0625,
+          "absent": 0.0625,
+          "copied_code": 0.8125,
+          "pair_accuracy": 0.0625,
+          "pairs": 64,
+          "pair_floor": 0.0625,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0625,
+            "canonical/plain/unshared": 0.0625
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 502,
+          "accuracy": 0.98046875,
+          "floor": 0.9375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.96875,
+            "assigned/plain/shared_four_letters": 0.9375,
+            "canonical/N/shared_four_letters": 1.0,
+            "assigned/N/shared_four_letters": 0.984375,
+            "canonical/plain/unshared": 1.0,
+            "assigned/plain/unshared": 1.0,
+            "canonical/N/unshared": 0.96875,
+            "assigned/N/unshared": 0.984375
+          },
+          "capped": 0,
+          "owner_perfect": 0.90625,
+          "present": 0.96875,
+          "false_unknown": 0.015625,
+          "absent": 0.9921875,
+          "copied_code": 0.0078125,
+          "pair_accuracy": 0.96484375,
+          "pairs": 256,
+          "pair_floor": 0.90625,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.9375,
+            "assigned/plain/shared_four_letters": 0.90625,
+            "canonical/N/shared_four_letters": 1.0,
+            "assigned/N/shared_four_letters": 0.96875,
+            "canonical/plain/unshared": 1.0,
+            "assigned/plain/unshared": 1.0,
+            "canonical/N/unshared": 0.9375,
+            "assigned/N/unshared": 0.96875
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 256,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 128,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.364129915833473,
+        "cosmopedia": 2.2703218329697847
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": true,
+          "pairs": true,
+          "pair_floor": true,
+          "wording": false,
+          "marker": true,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.11275600641965866,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 60,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.08267545700073242,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 23.697798926383257,
+          "unchanged_first_token": 5,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79802/baseline": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 63,
+          "accuracy": 0.4921875,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.484375
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.5,
+          "false_unknown": 0.5,
+          "absent": 0.484375,
+          "copied_code": 0.515625,
+          "pair_accuracy": 0.0,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3688717782497406,
+        "cosmopedia": 2.2712810821831226
+      },
+      "gate": {},
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.018306002020835876,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.03356596827507019,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.40291694924235344,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79802/POS": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 60,
+          "accuracy": 0.46875,
+          "floor": 0.4375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.4375,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.4375,
+          "present": 0.9375,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 0.9375,
+          "pair_accuracy": 0.0,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3643740117549896,
+        "cosmopedia": 2.2712372690439224
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.019647523760795593,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.02791464328765869,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.12376346066594124,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79802/EASY": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 65,
+          "accuracy": 0.5078125,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.515625
+          },
+          "capped": 0,
+          "owner_perfect": 0.0625,
+          "present": 0.5625,
+          "false_unknown": 0.4375,
+          "absent": 0.453125,
+          "copied_code": 0.546875,
+          "pair_accuracy": 0.015625,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.03125
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3642407916486263,
+        "cosmopedia": 2.270913280546665
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.012510895729064941,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.02372775971889496,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.1603219248354435,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79802/CHECK": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 126,
+          "accuracy": 0.4921875,
+          "floor": 0.46875,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.46875,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 255,
+          "accuracy": 0.99609375,
+          "floor": 0.984375,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.984375,
+            "assigned/K/shared_four_letters": 1.0,
+            "canonical/K/unshared": 1.0,
+            "assigned/K/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.984375,
+          "present": 0.9921875,
+          "false_unknown": 0.0078125,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.9921875,
+          "pairs": 128,
+          "pair_floor": 0.96875,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.96875,
+            "assigned/K/shared_four_letters": 1.0,
+            "canonical/K/unshared": 1.0,
+            "assigned/K/unshared": 1.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 344,
+          "accuracy": 0.671875,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.8125,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.765625,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.921875,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.875
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.34375,
+          "false_unknown": 0.65625,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.34375,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.625,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.53125,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.84375,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.75
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 63,
+          "accuracy": 0.4921875,
+          "floor": 0.421875,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.421875,
+            "canonical/plain/unshared": 0.5625
+          },
+          "capped": 0,
+          "owner_perfect": 0.453125,
+          "present": 0.90625,
+          "false_unknown": 0.078125,
+          "absent": 0.078125,
+          "copied_code": 0.859375,
+          "pair_accuracy": 0.078125,
+          "pairs": 64,
+          "pair_floor": 0.03125,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.03125,
+            "canonical/plain/unshared": 0.125
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 502,
+          "accuracy": 0.98046875,
+          "floor": 0.953125,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.984375,
+            "assigned/plain/shared_four_letters": 0.953125,
+            "canonical/N/shared_four_letters": 0.984375,
+            "assigned/N/shared_four_letters": 0.96875,
+            "canonical/plain/unshared": 0.96875,
+            "assigned/plain/unshared": 0.984375,
+            "canonical/N/unshared": 1.0,
+            "assigned/N/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.90625,
+          "present": 0.96875,
+          "false_unknown": 0.02734375,
+          "absent": 0.9921875,
+          "copied_code": 0.0078125,
+          "pair_accuracy": 0.9609375,
+          "pairs": 256,
+          "pair_floor": 0.90625,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.96875,
+            "assigned/plain/shared_four_letters": 0.90625,
+            "canonical/N/shared_four_letters": 0.96875,
+            "assigned/N/shared_four_letters": 0.9375,
+            "canonical/plain/unshared": 0.9375,
+            "assigned/plain/unshared": 0.96875,
+            "canonical/N/unshared": 1.0,
+            "assigned/N/unshared": 1.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 256,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 128,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3641199246048927,
+        "cosmopedia": 2.2708579283207655
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": true,
+          "pairs": true,
+          "pair_floor": true,
+          "wording": false,
+          "marker": true,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 48,
+        "legacy_retained": 48,
+        "legacy_lost": [],
+        "legacy_gained": []
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.1005907654762268,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 59,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.023278266191482544,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 24.631315022706985,
+          "unchanged_first_token": 9,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79803/baseline": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 127,
+          "accuracy": 0.49609375,
+          "floor": 0.484375,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.484375,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 47,
+          "accuracy": 0.9791666666666666,
+          "floor": 0.96875,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 0.96875
+          },
+          "capped": 0,
+          "owner_perfect": 0.9791666666666666
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 63,
+          "accuracy": 0.4921875,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.484375
+          },
+          "capped": 0,
+          "owner_perfect": 0.09375,
+          "present": 0.5625,
+          "false_unknown": 0.4375,
+          "absent": 0.421875,
+          "copied_code": 0.578125,
+          "pair_accuracy": 0.015625,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.03125
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3705660812556744,
+        "cosmopedia": 2.2715734783560038
+      },
+      "gate": {},
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.03815271705389023,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.09230782091617584,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.3969260323792696,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79803/POS": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.5,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 61,
+          "accuracy": 0.4765625,
+          "floor": 0.453125,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.453125,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.453125,
+          "present": 0.953125,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 0.953125,
+          "pair_accuracy": 0.0,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.5,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.365448534488678,
+        "cosmopedia": 2.270357036963105
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 47,
+        "legacy_retained": 47,
+        "legacy_lost": [],
+        "legacy_gained": [
+          "oldrecord/31"
+        ]
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.03689669072628021,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 63,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.0784822404384613,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.11766987293958664,
+          "unchanged_first_token": 256,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79803/EASY": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 127,
+          "accuracy": 0.49609375,
+          "floor": 0.484375,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.484375,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.5,
+            "assigned/K/shared_four_letters": 0.5,
+            "canonical/K/unshared": 0.5,
+            "assigned/K/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.0,
+            "assigned/K/shared_four_letters": 0.0,
+            "canonical/K/unshared": 0.0,
+            "assigned/K/unshared": 0.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 256,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.5,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.5,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.5,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.0,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.0,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.0,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.0
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 63,
+          "accuracy": 0.4921875,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.484375,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.140625,
+          "present": 0.609375,
+          "false_unknown": 0.390625,
+          "absent": 0.375,
+          "copied_code": 0.625,
+          "pair_accuracy": 0.015625,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.03125
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 255,
+          "accuracy": 0.498046875,
+          "floor": 0.484375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "assigned/plain/shared_four_letters": 0.484375,
+            "canonical/N/shared_four_letters": 0.5,
+            "assigned/N/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5,
+            "assigned/plain/unshared": 0.5,
+            "canonical/N/unshared": 0.5,
+            "assigned/N/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.99609375,
+          "false_unknown": 0.00390625,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "assigned/plain/shared_four_letters": 0.0,
+            "canonical/N/shared_four_letters": 0.0,
+            "assigned/N/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0,
+            "assigned/plain/unshared": 0.0,
+            "canonical/N/unshared": 0.0,
+            "assigned/N/unshared": 0.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 128,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.5,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3653947301208973,
+        "cosmopedia": 2.2703279461711645
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": false,
+          "pairs": false,
+          "pair_floor": false,
+          "wording": false,
+          "marker": false,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 47,
+        "legacy_retained": 47,
+        "legacy_lost": [],
+        "legacy_gained": [
+          "oldrecord/31"
+        ]
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 0.02605298161506653,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 63,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.07172539830207825,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 0.13202787190675735,
+          "unchanged_first_token": 255,
+          "pairs": 256
+        }
+      }
+    },
+    "development/79803/CHECK": {
+      "summary": {
+        "binding": {
+          "n": 256,
+          "exact": 125,
+          "accuracy": 0.48828125,
+          "floor": 0.453125,
+          "cells": {
+            "conditional/plain/shared_four_letters": 0.453125,
+            "code_only/plain/shared_four_letters": 0.5,
+            "conditional/plain/unshared": 0.5,
+            "code_only/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 128,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "conditional/plain/shared_four_letters": 0.0,
+            "code_only/plain/shared_four_letters": 0.0,
+            "conditional/plain/unshared": 0.0,
+            "code_only/plain/unshared": 0.0
+          }
+        },
+        "held_marker": {
+          "n": 256,
+          "exact": 253,
+          "accuracy": 0.98828125,
+          "floor": 0.96875,
+          "cells": {
+            "canonical/K/shared_four_letters": 0.96875,
+            "assigned/K/shared_four_letters": 0.984375,
+            "canonical/K/unshared": 1.0,
+            "assigned/K/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.96875,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.9765625,
+          "copied_code": 0.0234375,
+          "pair_accuracy": 0.9765625,
+          "pairs": 128,
+          "pair_floor": 0.9375,
+          "pair_cells": {
+            "canonical/K/shared_four_letters": 0.9375,
+            "assigned/K/shared_four_letters": 0.96875,
+            "canonical/K/unshared": 1.0,
+            "assigned/K/unshared": 1.0
+          }
+        },
+        "held_wording": {
+          "n": 512,
+          "exact": 373,
+          "accuracy": 0.728515625,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/plain/shared_four_letters": 0.5,
+            "find/plain/shared_four_letters": 0.921875,
+            "retrieve/N/shared_four_letters": 0.5,
+            "find/N/shared_four_letters": 0.9375,
+            "retrieve/plain/unshared": 0.5,
+            "find/plain/unshared": 0.984375,
+            "retrieve/N/unshared": 0.5,
+            "find/N/unshared": 0.984375
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.4609375,
+          "false_unknown": 0.5390625,
+          "absent": 0.99609375,
+          "copied_code": 0.00390625,
+          "pair_accuracy": 0.45703125,
+          "pairs": 256,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/plain/shared_four_letters": 0.0,
+            "find/plain/shared_four_letters": 0.84375,
+            "retrieve/N/shared_four_letters": 0.0,
+            "find/N/shared_four_letters": 0.875,
+            "retrieve/plain/unshared": 0.0,
+            "find/plain/unshared": 0.96875,
+            "retrieve/N/unshared": 0.0,
+            "find/N/unshared": 0.96875
+          }
+        },
+        "legacy": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "definition/canonical/question/na/na": 1.0,
+            "interpretation/canonical/question/na/na": 1.0,
+            "old_identifier/na/na": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0
+        },
+        "mention_only": {
+          "n": 128,
+          "exact": 58,
+          "accuracy": 0.453125,
+          "floor": 0.40625,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.40625,
+            "canonical/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.40625,
+          "present": 0.890625,
+          "false_unknown": 0.0,
+          "absent": 0.015625,
+          "copied_code": 0.90625,
+          "pair_accuracy": 0.0,
+          "pairs": 64,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.0,
+            "canonical/plain/unshared": 0.0
+          }
+        },
+        "primary": {
+          "n": 512,
+          "exact": 509,
+          "accuracy": 0.994140625,
+          "floor": 0.984375,
+          "cells": {
+            "canonical/plain/shared_four_letters": 0.984375,
+            "assigned/plain/shared_four_letters": 0.984375,
+            "canonical/N/shared_four_letters": 0.984375,
+            "assigned/N/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0,
+            "assigned/plain/unshared": 1.0,
+            "canonical/N/unshared": 1.0,
+            "assigned/N/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.96875,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.98828125,
+          "copied_code": 0.01171875,
+          "pair_accuracy": 0.98828125,
+          "pairs": 256,
+          "pair_floor": 0.96875,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 0.96875,
+            "assigned/plain/shared_four_letters": 0.96875,
+            "canonical/N/shared_four_letters": 0.96875,
+            "assigned/N/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0,
+            "assigned/plain/unshared": 1.0,
+            "canonical/N/unshared": 1.0,
+            "assigned/N/unshared": 1.0
+          }
+        },
+        "train": {
+          "n": 256,
+          "exact": 256,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 128,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "canonical/plain/shared_four_letters": 1.0,
+            "canonical/plain/unshared": 1.0
+          }
+        }
+      },
+      "prose": {
+        "fineweb": 3.3645303957164288,
+        "cosmopedia": 2.270531604066491
+      },
+      "gate": {
+        "passed": false,
+        "tests": {
+          "present": true,
+          "absent": true,
+          "pairs": true,
+          "pair_floor": true,
+          "wording": false,
+          "marker": true,
+          "legacy": true,
+          "prose": true
+        },
+        "legacy_before": 47,
+        "legacy_retained": 47,
+        "legacy_lost": [],
+        "legacy_gained": [
+          "oldrecord/31"
+        ]
+      },
+      "margins": {
+        "conditional": {
+          "query_swap_signed_delta": 8.760392665863037e-05,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 61,
+          "pairs": 64
+        },
+        "code_only": {
+          "query_swap_signed_delta": 0.03788319230079651,
+          "both_candidate_margins_correct": 0.0,
+          "unchanged_first_token": 64,
+          "pairs": 64
+        },
+        "single": {
+          "mean_present_minus_absent_code_unknown_margin": 23.202860599383712,
+          "unchanged_first_token": 3,
+          "pairs": 256
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "development/pair_accuracy": {
+      "delta": 0.9713541666666666,
+      "largest_seed_range": 0.02734375,
+      "readable": true,
+      "paired_differences": [
+        0.96484375,
+        0.9609375,
+        0.98828125
+      ]
+    },
+    "development/present": {
+      "delta": -0.01953125,
+      "largest_seed_range": 0.03125,
+      "readable": false,
+      "paired_differences": [
+        -0.03125,
+        -0.03125,
+        0.00390625
+      ]
+    },
+    "development/absent": {
+      "delta": 0.9908854166666666,
+      "largest_seed_range": 0.00390625,
+      "readable": true,
+      "paired_differences": [
+        0.9921875,
+        0.9921875,
+        0.98828125
+      ]
+    },
+    "development/pair_floor": {
+      "delta": 0.9270833333333334,
+      "largest_seed_range": 0.0625,
+      "readable": true,
+      "paired_differences": [
+        0.90625,
+        0.90625,
+        0.96875
+      ]
+    }
+  },
+  "positive_query_churn": {
+    "development/79801/POS/primary": {
+      "before": 254,
+      "after": 256,
+      "retained": 254,
+      "lost": [],
+      "recovered": [
+        "primary/79801/held/25/N/canonical/1/0",
+        "primary/79801/held/25/N/assigned/1/0"
+      ]
+    },
+    "development/79801/POS/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79801/POS/held_marker": {
+      "before": 126,
+      "after": 128,
+      "retained": 126,
+      "lost": [],
+      "recovered": [
+        "held_marker/79801/held/25/K/canonical/1/0",
+        "held_marker/79801/held/25/K/assigned/1/0"
+      ]
+    },
+    "development/79801/EASY/primary": {
+      "before": 254,
+      "after": 256,
+      "retained": 254,
+      "lost": [],
+      "recovered": [
+        "primary/79801/held/25/N/canonical/1/0",
+        "primary/79801/held/25/N/assigned/1/0"
+      ]
+    },
+    "development/79801/EASY/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79801/EASY/held_marker": {
+      "before": 126,
+      "after": 128,
+      "retained": 126,
+      "lost": [],
+      "recovered": [
+        "held_marker/79801/held/25/K/canonical/1/0",
+        "held_marker/79801/held/25/K/assigned/1/0"
+      ]
+    },
+    "development/79801/CHECK/primary": {
+      "before": 254,
+      "after": 248,
+      "retained": 247,
+      "lost": [
+        "primary/79801/held/10/plain/canonical/1/0",
+        "primary/79801/held/10/plain/assigned/1/0",
+        "primary/79801/held/14/plain/assigned/0/0",
+        "primary/79801/held/14/N/assigned/0/0",
+        "primary/79801/held/21/N/canonical/1/0",
+        "primary/79801/held/21/N/assigned/1/0",
+        "primary/79801/held/26/plain/assigned/1/0"
+      ],
+      "recovered": [
+        "primary/79801/held/25/N/assigned/1/0"
+      ]
+    },
+    "development/79801/CHECK/held_wording": {
+      "before": 256,
+      "after": 111,
+      "retained": 111,
+      "lost": [
+        "held_wording/79801/held/0/plain/retrieve/0/0",
+        "held_wording/79801/held/0/plain/retrieve/1/0",
+        "held_wording/79801/held/0/N/retrieve/0/0",
+        "held_wording/79801/held/0/N/retrieve/1/0",
+        "held_wording/79801/held/0/N/find/1/0",
+        "held_wording/79801/held/1/plain/retrieve/0/0",
+        "held_wording/79801/held/1/plain/retrieve/1/0",
+        "held_wording/79801/held/1/N/retrieve/0/0",
+        "held_wording/79801/held/1/N/retrieve/1/0",
+        "held_wording/79801/held/2/plain/retrieve/0/0",
+        "held_wording/79801/held/2/plain/retrieve/1/0",
+        "held_wording/79801/held/2/N/retrieve/0/0",
+        "held_wording/79801/held/2/N/retrieve/1/0",
+        "held_wording/79801/held/2/N/find/1/0",
+        "held_wording/79801/held/3/plain/retrieve/0/0",
+        "held_wording/79801/held/3/plain/retrieve/1/0",
+        "held_wording/79801/held/3/N/retrieve/0/0",
+        "held_wording/79801/held/3/N/retrieve/1/0",
+        "held_wording/79801/held/4/plain/retrieve/0/0",
+        "held_wording/79801/held/4/plain/retrieve/1/0",
+        "held_wording/79801/held/4/N/retrieve/0/0",
+        "held_wording/79801/held/4/N/retrieve/1/0",
+        "held_wording/79801/held/5/plain/retrieve/0/0",
+        "held_wording/79801/held/5/plain/retrieve/1/0",
+        "held_wording/79801/held/5/N/retrieve/0/0",
+        "held_wording/79801/held/5/N/retrieve/1/0",
+        "held_wording/79801/held/6/plain/retrieve/0/0",
+        "held_wording/79801/held/6/plain/retrieve/1/0",
+        "held_wording/79801/held/6/N/retrieve/0/0",
+        "held_wording/79801/held/6/N/retrieve/1/0",
+        "held_wording/79801/held/7/plain/retrieve/0/0",
+        "held_wording/79801/held/7/plain/retrieve/1/0",
+        "held_wording/79801/held/7/N/retrieve/0/0",
+        "held_wording/79801/held/7/N/retrieve/1/0",
+        "held_wording/79801/held/8/plain/retrieve/0/0",
+        "held_wording/79801/held/8/N/retrieve/0/0",
+        "held_wording/79801/held/8/N/retrieve/1/0",
+        "held_wording/79801/held/9/plain/retrieve/0/0",
+        "held_wording/79801/held/9/plain/retrieve/1/0",
+        "held_wording/79801/held/9/N/retrieve/0/0",
+        "held_wording/79801/held/9/N/retrieve/1/0",
+        "held_wording/79801/held/10/plain/retrieve/0/0",
+        "held_wording/79801/held/10/plain/retrieve/1/0",
+        "held_wording/79801/held/10/plain/find/0/0",
+        "held_wording/79801/held/10/plain/find/1/0",
+        "held_wording/79801/held/10/N/retrieve/0/0",
+        "held_wording/79801/held/10/N/retrieve/1/0",
+        "held_wording/79801/held/10/N/find/0/0",
+        "held_wording/79801/held/10/N/find/1/0",
+        "held_wording/79801/held/11/plain/retrieve/0/0",
+        "held_wording/79801/held/11/plain/retrieve/1/0",
+        "held_wording/79801/held/11/N/retrieve/0/0",
+        "held_wording/79801/held/11/N/retrieve/1/0",
+        "held_wording/79801/held/12/plain/retrieve/0/0",
+        "held_wording/79801/held/12/plain/retrieve/1/0",
+        "held_wording/79801/held/12/N/retrieve/0/0",
+        "held_wording/79801/held/12/N/retrieve/1/0",
+        "held_wording/79801/held/13/plain/retrieve/0/0",
+        "held_wording/79801/held/13/plain/retrieve/1/0",
+        "held_wording/79801/held/13/N/retrieve/0/0",
+        "held_wording/79801/held/13/N/retrieve/1/0",
+        "held_wording/79801/held/14/plain/retrieve/0/0",
+        "held_wording/79801/held/14/plain/retrieve/1/0",
+        "held_wording/79801/held/14/plain/find/0/0",
+        "held_wording/79801/held/14/N/retrieve/0/0",
+        "held_wording/79801/held/14/N/retrieve/1/0",
+        "held_wording/79801/held/14/N/find/0/0",
+        "held_wording/79801/held/15/plain/retrieve/0/0",
+        "held_wording/79801/held/15/plain/retrieve/1/0",
+        "held_wording/79801/held/15/N/retrieve/0/0",
+        "held_wording/79801/held/15/N/retrieve/1/0",
+        "held_wording/79801/held/16/plain/retrieve/0/0",
+        "held_wording/79801/held/16/plain/retrieve/1/0",
+        "held_wording/79801/held/16/plain/find/0/0",
+        "held_wording/79801/held/16/plain/find/1/0",
+        "held_wording/79801/held/16/N/retrieve/0/0",
+        "held_wording/79801/held/16/N/retrieve/1/0",
+        "held_wording/79801/held/16/N/find/0/0",
+        "held_wording/79801/held/16/N/find/1/0",
+        "held_wording/79801/held/17/plain/retrieve/1/0",
+        "held_wording/79801/held/17/N/retrieve/1/0",
+        "held_wording/79801/held/18/plain/retrieve/0/0",
+        "held_wording/79801/held/18/plain/retrieve/1/0",
+        "held_wording/79801/held/18/N/retrieve/0/0",
+        "held_wording/79801/held/18/N/retrieve/1/0",
+        "held_wording/79801/held/19/plain/retrieve/0/0",
+        "held_wording/79801/held/19/plain/retrieve/1/0",
+        "held_wording/79801/held/19/N/retrieve/0/0",
+        "held_wording/79801/held/19/N/retrieve/1/0",
+        "held_wording/79801/held/20/plain/retrieve/0/0",
+        "held_wording/79801/held/20/plain/retrieve/1/0",
+        "held_wording/79801/held/20/N/retrieve/0/0",
+        "held_wording/79801/held/20/N/retrieve/1/0",
+        "held_wording/79801/held/21/plain/retrieve/0/0",
+        "held_wording/79801/held/21/plain/retrieve/1/0",
+        "held_wording/79801/held/21/plain/find/0/0",
+        "held_wording/79801/held/21/plain/find/1/0",
+        "held_wording/79801/held/21/N/retrieve/0/0",
+        "held_wording/79801/held/21/N/retrieve/1/0",
+        "held_wording/79801/held/21/N/find/0/0",
+        "held_wording/79801/held/21/N/find/1/0",
+        "held_wording/79801/held/22/plain/retrieve/0/0",
+        "held_wording/79801/held/22/plain/retrieve/1/0",
+        "held_wording/79801/held/22/N/retrieve/0/0",
+        "held_wording/79801/held/22/N/retrieve/1/0",
+        "held_wording/79801/held/23/plain/retrieve/0/0",
+        "held_wording/79801/held/23/N/retrieve/0/0",
+        "held_wording/79801/held/24/plain/retrieve/0/0",
+        "held_wording/79801/held/24/plain/retrieve/1/0",
+        "held_wording/79801/held/24/N/retrieve/0/0",
+        "held_wording/79801/held/24/N/retrieve/1/0",
+        "held_wording/79801/held/24/N/find/1/0",
+        "held_wording/79801/held/25/plain/retrieve/0/0",
+        "held_wording/79801/held/25/plain/retrieve/1/0",
+        "held_wording/79801/held/25/plain/find/1/0",
+        "held_wording/79801/held/25/N/retrieve/0/0",
+        "held_wording/79801/held/25/N/retrieve/1/0",
+        "held_wording/79801/held/25/N/find/1/0",
+        "held_wording/79801/held/26/plain/retrieve/0/0",
+        "held_wording/79801/held/26/plain/retrieve/1/0",
+        "held_wording/79801/held/26/N/retrieve/0/0",
+        "held_wording/79801/held/26/N/retrieve/1/0",
+        "held_wording/79801/held/26/N/find/1/0",
+        "held_wording/79801/held/27/plain/retrieve/0/0",
+        "held_wording/79801/held/27/plain/retrieve/1/0",
+        "held_wording/79801/held/27/N/retrieve/0/0",
+        "held_wording/79801/held/27/N/retrieve/1/0",
+        "held_wording/79801/held/27/N/find/1/0",
+        "held_wording/79801/held/28/plain/retrieve/1/0",
+        "held_wording/79801/held/28/N/retrieve/0/0",
+        "held_wording/79801/held/28/N/retrieve/1/0",
+        "held_wording/79801/held/29/plain/retrieve/0/0",
+        "held_wording/79801/held/29/plain/retrieve/1/0",
+        "held_wording/79801/held/29/plain/find/0/0",
+        "held_wording/79801/held/29/N/retrieve/0/0",
+        "held_wording/79801/held/29/N/retrieve/1/0",
+        "held_wording/79801/held/29/N/find/1/0",
+        "held_wording/79801/held/30/plain/retrieve/0/0",
+        "held_wording/79801/held/30/plain/retrieve/1/0",
+        "held_wording/79801/held/30/N/retrieve/0/0",
+        "held_wording/79801/held/30/N/retrieve/1/0",
+        "held_wording/79801/held/31/plain/retrieve/0/0",
+        "held_wording/79801/held/31/plain/retrieve/1/0",
+        "held_wording/79801/held/31/N/retrieve/0/0",
+        "held_wording/79801/held/31/N/retrieve/1/0"
+      ],
+      "recovered": []
+    },
+    "development/79801/CHECK/held_marker": {
+      "before": 126,
+      "after": 123,
+      "retained": 122,
+      "lost": [
+        "held_marker/79801/held/10/K/assigned/1/0",
+        "held_marker/79801/held/14/K/assigned/0/0",
+        "held_marker/79801/held/21/K/canonical/1/0",
+        "held_marker/79801/held/21/K/assigned/1/0"
+      ],
+      "recovered": [
+        "held_marker/79801/held/25/K/assigned/1/0"
+      ]
+    },
+    "development/79802/POS/primary": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/POS/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/POS/held_marker": {
+      "before": 128,
+      "after": 128,
+      "retained": 128,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/EASY/primary": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/EASY/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/EASY/held_marker": {
+      "before": 128,
+      "after": 128,
+      "retained": 128,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79802/CHECK/primary": {
+      "before": 256,
+      "after": 248,
+      "retained": 248,
+      "lost": [
+        "primary/79802/held/2/plain/assigned/1/0",
+        "primary/79802/held/17/plain/canonical/1/0",
+        "primary/79802/held/19/plain/canonical/1/0",
+        "primary/79802/held/19/plain/assigned/1/0",
+        "primary/79802/held/20/plain/canonical/0/0",
+        "primary/79802/held/20/plain/assigned/0/0",
+        "primary/79802/held/20/N/canonical/0/0",
+        "primary/79802/held/20/N/assigned/0/0"
+      ],
+      "recovered": []
+    },
+    "development/79802/CHECK/held_wording": {
+      "before": 256,
+      "after": 88,
+      "retained": 88,
+      "lost": [
+        "held_wording/79802/held/0/plain/retrieve/0/0",
+        "held_wording/79802/held/0/plain/retrieve/1/0",
+        "held_wording/79802/held/0/N/retrieve/0/0",
+        "held_wording/79802/held/0/N/retrieve/1/0",
+        "held_wording/79802/held/1/plain/retrieve/0/0",
+        "held_wording/79802/held/1/plain/retrieve/1/0",
+        "held_wording/79802/held/1/plain/find/1/0",
+        "held_wording/79802/held/1/N/retrieve/0/0",
+        "held_wording/79802/held/1/N/retrieve/1/0",
+        "held_wording/79802/held/1/N/find/1/0",
+        "held_wording/79802/held/2/plain/retrieve/0/0",
+        "held_wording/79802/held/2/plain/retrieve/1/0",
+        "held_wording/79802/held/2/plain/find/0/0",
+        "held_wording/79802/held/2/plain/find/1/0",
+        "held_wording/79802/held/2/N/retrieve/0/0",
+        "held_wording/79802/held/2/N/retrieve/1/0",
+        "held_wording/79802/held/2/N/find/0/0",
+        "held_wording/79802/held/2/N/find/1/0",
+        "held_wording/79802/held/3/plain/retrieve/0/0",
+        "held_wording/79802/held/3/plain/retrieve/1/0",
+        "held_wording/79802/held/3/N/retrieve/0/0",
+        "held_wording/79802/held/3/N/retrieve/1/0",
+        "held_wording/79802/held/4/plain/retrieve/0/0",
+        "held_wording/79802/held/4/plain/retrieve/1/0",
+        "held_wording/79802/held/4/plain/find/0/0",
+        "held_wording/79802/held/4/N/retrieve/0/0",
+        "held_wording/79802/held/4/N/retrieve/1/0",
+        "held_wording/79802/held/4/N/find/0/0",
+        "held_wording/79802/held/5/plain/retrieve/0/0",
+        "held_wording/79802/held/5/plain/retrieve/1/0",
+        "held_wording/79802/held/5/N/retrieve/0/0",
+        "held_wording/79802/held/5/N/retrieve/1/0",
+        "held_wording/79802/held/5/N/find/0/0",
+        "held_wording/79802/held/6/plain/retrieve/0/0",
+        "held_wording/79802/held/6/plain/retrieve/1/0",
+        "held_wording/79802/held/6/plain/find/0/0",
+        "held_wording/79802/held/6/N/retrieve/0/0",
+        "held_wording/79802/held/6/N/retrieve/1/0",
+        "held_wording/79802/held/6/N/find/0/0",
+        "held_wording/79802/held/6/N/find/1/0",
+        "held_wording/79802/held/7/plain/retrieve/0/0",
+        "held_wording/79802/held/7/plain/retrieve/1/0",
+        "held_wording/79802/held/7/N/retrieve/0/0",
+        "held_wording/79802/held/7/N/retrieve/1/0",
+        "held_wording/79802/held/8/plain/retrieve/0/0",
+        "held_wording/79802/held/8/plain/retrieve/1/0",
+        "held_wording/79802/held/8/plain/find/0/0",
+        "held_wording/79802/held/8/N/retrieve/0/0",
+        "held_wording/79802/held/8/N/retrieve/1/0",
+        "held_wording/79802/held/8/N/find/0/0",
+        "held_wording/79802/held/9/plain/retrieve/0/0",
+        "held_wording/79802/held/9/plain/retrieve/1/0",
+        "held_wording/79802/held/9/plain/find/0/0",
+        "held_wording/79802/held/9/N/retrieve/0/0",
+        "held_wording/79802/held/9/N/retrieve/1/0",
+        "held_wording/79802/held/9/N/find/0/0",
+        "held_wording/79802/held/10/plain/retrieve/0/0",
+        "held_wording/79802/held/10/plain/retrieve/1/0",
+        "held_wording/79802/held/10/plain/find/1/0",
+        "held_wording/79802/held/10/N/retrieve/0/0",
+        "held_wording/79802/held/10/N/retrieve/1/0",
+        "held_wording/79802/held/10/N/find/1/0",
+        "held_wording/79802/held/11/plain/retrieve/0/0",
+        "held_wording/79802/held/11/plain/retrieve/1/0",
+        "held_wording/79802/held/11/N/retrieve/0/0",
+        "held_wording/79802/held/11/N/retrieve/1/0",
+        "held_wording/79802/held/12/plain/retrieve/0/0",
+        "held_wording/79802/held/12/plain/retrieve/1/0",
+        "held_wording/79802/held/12/N/retrieve/0/0",
+        "held_wording/79802/held/12/N/retrieve/1/0",
+        "held_wording/79802/held/13/plain/retrieve/0/0",
+        "held_wording/79802/held/13/plain/retrieve/1/0",
+        "held_wording/79802/held/13/plain/find/1/0",
+        "held_wording/79802/held/13/N/retrieve/0/0",
+        "held_wording/79802/held/13/N/retrieve/1/0",
+        "held_wording/79802/held/13/N/find/1/0",
+        "held_wording/79802/held/14/plain/retrieve/0/0",
+        "held_wording/79802/held/14/plain/retrieve/1/0",
+        "held_wording/79802/held/14/plain/find/0/0",
+        "held_wording/79802/held/14/N/retrieve/0/0",
+        "held_wording/79802/held/14/N/retrieve/1/0",
+        "held_wording/79802/held/14/N/find/0/0",
+        "held_wording/79802/held/15/plain/retrieve/0/0",
+        "held_wording/79802/held/15/plain/retrieve/1/0",
+        "held_wording/79802/held/15/N/retrieve/0/0",
+        "held_wording/79802/held/15/N/retrieve/1/0",
+        "held_wording/79802/held/16/plain/retrieve/0/0",
+        "held_wording/79802/held/16/plain/retrieve/1/0",
+        "held_wording/79802/held/16/N/retrieve/0/0",
+        "held_wording/79802/held/16/N/retrieve/1/0",
+        "held_wording/79802/held/17/plain/retrieve/0/0",
+        "held_wording/79802/held/17/plain/retrieve/1/0",
+        "held_wording/79802/held/17/plain/find/1/0",
+        "held_wording/79802/held/17/N/retrieve/0/0",
+        "held_wording/79802/held/17/N/retrieve/1/0",
+        "held_wording/79802/held/17/N/find/0/0",
+        "held_wording/79802/held/18/plain/retrieve/0/0",
+        "held_wording/79802/held/18/plain/retrieve/1/0",
+        "held_wording/79802/held/18/plain/find/1/0",
+        "held_wording/79802/held/18/N/retrieve/0/0",
+        "held_wording/79802/held/18/N/retrieve/1/0",
+        "held_wording/79802/held/18/N/find/1/0",
+        "held_wording/79802/held/19/plain/retrieve/0/0",
+        "held_wording/79802/held/19/plain/retrieve/1/0",
+        "held_wording/79802/held/19/plain/find/1/0",
+        "held_wording/79802/held/19/N/retrieve/0/0",
+        "held_wording/79802/held/19/N/retrieve/1/0",
+        "held_wording/79802/held/19/N/find/1/0",
+        "held_wording/79802/held/20/plain/retrieve/0/0",
+        "held_wording/79802/held/20/plain/retrieve/1/0",
+        "held_wording/79802/held/20/plain/find/0/0",
+        "held_wording/79802/held/20/N/retrieve/0/0",
+        "held_wording/79802/held/20/N/retrieve/1/0",
+        "held_wording/79802/held/20/N/find/0/0",
+        "held_wording/79802/held/21/plain/retrieve/0/0",
+        "held_wording/79802/held/21/plain/retrieve/1/0",
+        "held_wording/79802/held/21/N/retrieve/0/0",
+        "held_wording/79802/held/21/N/retrieve/1/0",
+        "held_wording/79802/held/22/plain/retrieve/0/0",
+        "held_wording/79802/held/22/plain/retrieve/1/0",
+        "held_wording/79802/held/22/N/retrieve/0/0",
+        "held_wording/79802/held/22/N/retrieve/1/0",
+        "held_wording/79802/held/22/N/find/0/0",
+        "held_wording/79802/held/23/plain/retrieve/0/0",
+        "held_wording/79802/held/23/plain/retrieve/1/0",
+        "held_wording/79802/held/23/N/retrieve/0/0",
+        "held_wording/79802/held/23/N/retrieve/1/0",
+        "held_wording/79802/held/24/plain/retrieve/0/0",
+        "held_wording/79802/held/24/plain/retrieve/1/0",
+        "held_wording/79802/held/24/plain/find/0/0",
+        "held_wording/79802/held/24/N/retrieve/0/0",
+        "held_wording/79802/held/24/N/retrieve/1/0",
+        "held_wording/79802/held/24/N/find/1/0",
+        "held_wording/79802/held/25/plain/retrieve/0/0",
+        "held_wording/79802/held/25/plain/retrieve/1/0",
+        "held_wording/79802/held/25/N/retrieve/0/0",
+        "held_wording/79802/held/25/N/retrieve/1/0",
+        "held_wording/79802/held/26/plain/retrieve/0/0",
+        "held_wording/79802/held/26/plain/retrieve/1/0",
+        "held_wording/79802/held/26/plain/find/0/0",
+        "held_wording/79802/held/26/N/retrieve/0/0",
+        "held_wording/79802/held/26/N/retrieve/1/0",
+        "held_wording/79802/held/26/N/find/0/0",
+        "held_wording/79802/held/27/plain/retrieve/0/0",
+        "held_wording/79802/held/27/plain/retrieve/1/0",
+        "held_wording/79802/held/27/N/retrieve/0/0",
+        "held_wording/79802/held/27/N/retrieve/1/0",
+        "held_wording/79802/held/27/N/find/0/0",
+        "held_wording/79802/held/28/plain/retrieve/0/0",
+        "held_wording/79802/held/28/plain/retrieve/1/0",
+        "held_wording/79802/held/28/plain/find/0/0",
+        "held_wording/79802/held/28/N/retrieve/0/0",
+        "held_wording/79802/held/28/N/retrieve/1/0",
+        "held_wording/79802/held/28/N/find/0/0",
+        "held_wording/79802/held/28/N/find/1/0",
+        "held_wording/79802/held/29/plain/retrieve/0/0",
+        "held_wording/79802/held/29/plain/retrieve/1/0",
+        "held_wording/79802/held/29/N/retrieve/0/0",
+        "held_wording/79802/held/29/N/retrieve/1/0",
+        "held_wording/79802/held/30/plain/retrieve/0/0",
+        "held_wording/79802/held/30/plain/retrieve/1/0",
+        "held_wording/79802/held/30/N/retrieve/0/0",
+        "held_wording/79802/held/30/N/retrieve/1/0",
+        "held_wording/79802/held/31/plain/retrieve/0/0",
+        "held_wording/79802/held/31/plain/retrieve/1/0",
+        "held_wording/79802/held/31/N/retrieve/0/0",
+        "held_wording/79802/held/31/N/retrieve/1/0",
+        "held_wording/79802/held/31/N/find/0/0"
+      ],
+      "recovered": []
+    },
+    "development/79802/CHECK/held_marker": {
+      "before": 128,
+      "after": 127,
+      "retained": 127,
+      "lost": [
+        "held_marker/79802/held/20/K/canonical/0/0"
+      ],
+      "recovered": []
+    },
+    "development/79803/POS/primary": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/POS/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/POS/held_marker": {
+      "before": 128,
+      "after": 128,
+      "retained": 128,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/EASY/primary": {
+      "before": 256,
+      "after": 255,
+      "retained": 255,
+      "lost": [
+        "primary/79803/held/26/plain/assigned/0/0"
+      ],
+      "recovered": []
+    },
+    "development/79803/EASY/held_wording": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/EASY/held_marker": {
+      "before": 128,
+      "after": 128,
+      "retained": 128,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/CHECK/primary": {
+      "before": 256,
+      "after": 256,
+      "retained": 256,
+      "lost": [],
+      "recovered": []
+    },
+    "development/79803/CHECK/held_wording": {
+      "before": 256,
+      "after": 118,
+      "retained": 118,
+      "lost": [
+        "held_wording/79803/held/0/plain/retrieve/0/0",
+        "held_wording/79803/held/0/plain/retrieve/1/0",
+        "held_wording/79803/held/0/N/retrieve/0/0",
+        "held_wording/79803/held/0/N/retrieve/1/0",
+        "held_wording/79803/held/1/plain/retrieve/0/0",
+        "held_wording/79803/held/1/plain/retrieve/1/0",
+        "held_wording/79803/held/1/N/retrieve/0/0",
+        "held_wording/79803/held/1/N/retrieve/1/0",
+        "held_wording/79803/held/2/plain/retrieve/0/0",
+        "held_wording/79803/held/2/plain/retrieve/1/0",
+        "held_wording/79803/held/2/N/retrieve/0/0",
+        "held_wording/79803/held/2/N/retrieve/1/0",
+        "held_wording/79803/held/3/plain/retrieve/0/0",
+        "held_wording/79803/held/3/plain/retrieve/1/0",
+        "held_wording/79803/held/3/N/retrieve/0/0",
+        "held_wording/79803/held/3/N/retrieve/1/0",
+        "held_wording/79803/held/4/plain/retrieve/0/0",
+        "held_wording/79803/held/4/plain/retrieve/1/0",
+        "held_wording/79803/held/4/N/retrieve/0/0",
+        "held_wording/79803/held/4/N/retrieve/1/0",
+        "held_wording/79803/held/5/plain/retrieve/0/0",
+        "held_wording/79803/held/5/plain/retrieve/1/0",
+        "held_wording/79803/held/5/N/retrieve/0/0",
+        "held_wording/79803/held/5/N/retrieve/1/0",
+        "held_wording/79803/held/6/plain/retrieve/0/0",
+        "held_wording/79803/held/6/plain/retrieve/1/0",
+        "held_wording/79803/held/6/N/retrieve/0/0",
+        "held_wording/79803/held/6/N/retrieve/1/0",
+        "held_wording/79803/held/7/plain/retrieve/0/0",
+        "held_wording/79803/held/7/plain/retrieve/1/0",
+        "held_wording/79803/held/7/N/retrieve/0/0",
+        "held_wording/79803/held/7/N/retrieve/1/0",
+        "held_wording/79803/held/8/plain/retrieve/0/0",
+        "held_wording/79803/held/8/plain/retrieve/1/0",
+        "held_wording/79803/held/8/plain/find/1/0",
+        "held_wording/79803/held/8/N/retrieve/0/0",
+        "held_wording/79803/held/8/N/retrieve/1/0",
+        "held_wording/79803/held/9/plain/retrieve/0/0",
+        "held_wording/79803/held/9/plain/retrieve/1/0",
+        "held_wording/79803/held/9/N/retrieve/0/0",
+        "held_wording/79803/held/9/N/retrieve/1/0",
+        "held_wording/79803/held/10/plain/retrieve/0/0",
+        "held_wording/79803/held/10/plain/retrieve/1/0",
+        "held_wording/79803/held/10/plain/find/1/0",
+        "held_wording/79803/held/10/N/retrieve/0/0",
+        "held_wording/79803/held/10/N/retrieve/1/0",
+        "held_wording/79803/held/11/plain/retrieve/0/0",
+        "held_wording/79803/held/11/plain/retrieve/1/0",
+        "held_wording/79803/held/11/plain/find/1/0",
+        "held_wording/79803/held/11/N/retrieve/0/0",
+        "held_wording/79803/held/11/N/retrieve/1/0",
+        "held_wording/79803/held/11/N/find/1/0",
+        "held_wording/79803/held/12/plain/retrieve/0/0",
+        "held_wording/79803/held/12/plain/retrieve/1/0",
+        "held_wording/79803/held/12/N/retrieve/0/0",
+        "held_wording/79803/held/12/N/retrieve/1/0",
+        "held_wording/79803/held/13/plain/retrieve/0/0",
+        "held_wording/79803/held/13/plain/retrieve/1/0",
+        "held_wording/79803/held/13/N/retrieve/0/0",
+        "held_wording/79803/held/13/N/retrieve/1/0",
+        "held_wording/79803/held/14/plain/retrieve/0/0",
+        "held_wording/79803/held/14/plain/retrieve/1/0",
+        "held_wording/79803/held/14/N/retrieve/0/0",
+        "held_wording/79803/held/14/N/retrieve/1/0",
+        "held_wording/79803/held/14/N/find/0/0",
+        "held_wording/79803/held/15/plain/retrieve/0/0",
+        "held_wording/79803/held/15/plain/retrieve/1/0",
+        "held_wording/79803/held/15/N/retrieve/0/0",
+        "held_wording/79803/held/15/N/retrieve/1/0",
+        "held_wording/79803/held/16/plain/retrieve/0/0",
+        "held_wording/79803/held/16/plain/retrieve/1/0",
+        "held_wording/79803/held/16/N/retrieve/0/0",
+        "held_wording/79803/held/16/N/retrieve/1/0",
+        "held_wording/79803/held/17/plain/retrieve/0/0",
+        "held_wording/79803/held/17/plain/retrieve/1/0",
+        "held_wording/79803/held/17/N/retrieve/0/0",
+        "held_wording/79803/held/17/N/retrieve/1/0",
+        "held_wording/79803/held/18/plain/retrieve/0/0",
+        "held_wording/79803/held/18/plain/retrieve/1/0",
+        "held_wording/79803/held/18/N/retrieve/0/0",
+        "held_wording/79803/held/18/N/retrieve/1/0",
+        "held_wording/79803/held/19/plain/retrieve/0/0",
+        "held_wording/79803/held/19/plain/retrieve/1/0",
+        "held_wording/79803/held/19/N/retrieve/0/0",
+        "held_wording/79803/held/19/N/retrieve/1/0",
+        "held_wording/79803/held/20/plain/retrieve/0/0",
+        "held_wording/79803/held/20/plain/retrieve/1/0",
+        "held_wording/79803/held/20/N/retrieve/0/0",
+        "held_wording/79803/held/20/N/retrieve/1/0",
+        "held_wording/79803/held/21/plain/retrieve/0/0",
+        "held_wording/79803/held/21/plain/retrieve/1/0",
+        "held_wording/79803/held/21/N/retrieve/0/0",
+        "held_wording/79803/held/21/N/retrieve/1/0",
+        "held_wording/79803/held/22/plain/retrieve/0/0",
+        "held_wording/79803/held/22/plain/retrieve/1/0",
+        "held_wording/79803/held/22/plain/find/0/0",
+        "held_wording/79803/held/22/N/retrieve/0/0",
+        "held_wording/79803/held/22/N/retrieve/1/0",
+        "held_wording/79803/held/22/N/find/0/0",
+        "held_wording/79803/held/23/plain/retrieve/0/0",
+        "held_wording/79803/held/23/plain/retrieve/1/0",
+        "held_wording/79803/held/23/N/retrieve/0/0",
+        "held_wording/79803/held/23/N/retrieve/1/0",
+        "held_wording/79803/held/24/plain/retrieve/0/0",
+        "held_wording/79803/held/24/plain/retrieve/1/0",
+        "held_wording/79803/held/24/N/retrieve/0/0",
+        "held_wording/79803/held/24/N/retrieve/1/0",
+        "held_wording/79803/held/25/plain/retrieve/0/0",
+        "held_wording/79803/held/25/plain/retrieve/1/0",
+        "held_wording/79803/held/25/N/retrieve/0/0",
+        "held_wording/79803/held/25/N/retrieve/1/0",
+        "held_wording/79803/held/26/plain/retrieve/0/0",
+        "held_wording/79803/held/26/plain/retrieve/1/0",
+        "held_wording/79803/held/26/plain/find/1/0",
+        "held_wording/79803/held/26/N/retrieve/0/0",
+        "held_wording/79803/held/26/N/retrieve/1/0",
+        "held_wording/79803/held/26/N/find/1/0",
+        "held_wording/79803/held/27/plain/retrieve/0/0",
+        "held_wording/79803/held/27/plain/retrieve/1/0",
+        "held_wording/79803/held/27/N/retrieve/0/0",
+        "held_wording/79803/held/27/N/retrieve/1/0",
+        "held_wording/79803/held/28/plain/retrieve/0/0",
+        "held_wording/79803/held/28/plain/retrieve/1/0",
+        "held_wording/79803/held/28/N/retrieve/0/0",
+        "held_wording/79803/held/28/N/retrieve/1/0",
+        "held_wording/79803/held/29/plain/retrieve/0/0",
+        "held_wording/79803/held/29/plain/retrieve/1/0",
+        "held_wording/79803/held/29/N/retrieve/0/0",
+        "held_wording/79803/held/29/N/retrieve/1/0",
+        "held_wording/79803/held/30/plain/retrieve/0/0",
+        "held_wording/79803/held/30/plain/retrieve/1/0",
+        "held_wording/79803/held/30/N/retrieve/0/0",
+        "held_wording/79803/held/30/N/retrieve/1/0",
+        "held_wording/79803/held/30/N/find/1/0",
+        "held_wording/79803/held/31/plain/retrieve/0/0",
+        "held_wording/79803/held/31/plain/retrieve/1/0",
+        "held_wording/79803/held/31/N/retrieve/0/0",
+        "held_wording/79803/held/31/N/retrieve/1/0"
+      ],
+      "recovered": []
+    },
+    "development/79803/CHECK/held_marker": {
+      "before": 128,
+      "after": 128,
+      "retained": 128,
+      "lost": [],
+      "recovered": []
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "standing": "Local engineering validation, not scientific confirmation. No remote publication or production promotion.",
+  "checks": {
+    "attention_class_AST_exact": true,
+    "geometry_class_AST_exact": true,
+    "model_only_import_relocation": true,
+    "unit_tests_21_passed": true,
+    "historical_milestone_manifest_unchanged": true,
+    "installed_not_workspace_import": true,
+    "fresh_process_cpu_same_generation_tokens": true,
+    "fresh_process_tensor_exact": true,
+    "installed_checkpoint_reconstruction_exact": true,
+    "demo_acquisition": true,
+    "demo_finite": true,
+    "demo_parent_unchanged": true,
+    "demo_protected_exact": true,
+    "demo_reload_exact": true,
+    "demo_retention": true,
+    "sandbox_applied": true,
+    "sandbox_different_candidate_pointer": true,
+    "sandbox_rollback_exact": true,
+    "original_weights_still_exact": true
+  },
+  "environment": {
+    "python": "3.13.12",
+    "torch": "2.13.0+cu130",
+    "device": "cuda",
+    "peak_cuda_allocated_bytes": 2529373696,
+    "trainable_parameters": 28317696
+  },
+  "gpu": "NVIDIA GeForce RTX 3070 Ti",
+  "dependency_install": "Wheel built without fetching dependencies; installed into separate directory; existing recorded Python environment. Not a newly provisioned OS/driver stack.",
+  "demo_contract_sha256": "1699f96bb4635264a3386903f8c616d18cbcfb9ec385b28e2be7ff1014634573",
+  "demo": {
+    "before": {
+      "acquisition_eval": {
+        "exact": 2,
+        "n": 2,
+        "mean_ce": 0.007959570502862334
+      },
+      "retention": {
+        "exact": 2,
+        "n": 2,
+        "mean_ce": 0.008460882352665067
+      }
+    },
+    "after": {
+      "acquisition_eval": {
+        "exact": 2,
+        "n": 2,
+        "mean_ce": 0.007230371469631791
+      },
+      "retention": {
+        "exact": 2,
+        "n": 2,
+        "mean_ce": 0.0073805710999295115
+      }
+    },
+    "interpretation": "Tiny evaluation already passed before fitting. This validates plumbing and preservation checks, not acquisition of a new skill."
+  },
+  "fresh_process_cpu_generations": [
+    {
+      "tokens": [
+        8093,
+        50256
+      ],
+      "terminated": true,
+      "capped": false
+    },
+    {
+      "tokens": [
+        2579,
+        50256
+      ],
+      "terminated": true,
+      "capped": false
+    }
+  ],
+  "ci_remote_run": false
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometric-continual-learning-prototype"
+version = "0.1.0"
+description = "A geometric residual language model and verified local-update research workflow"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Jean Charbonneau"}]
+dependencies = ["torch>=2.5,<3", "numpy>=1.26,<3", "scipy>=1.12,<2", "tiktoken>=0.8,<1"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "third_party/*LICENSE.txt"]
+
+[tool.setuptools.packages.find]
+include = ["gcl*"]
+
+[tool.setuptools.package-data]
+gcl = ["assets/*.json"]

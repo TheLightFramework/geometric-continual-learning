@@ -1,0 +1,18 @@
+{
+  "standing": "Small authored engineering fixture. Not a scientific test or a generic prose panel. Repeated evaluation is development evidence only.",
+  "recipe": {"seed": 80301, "train_blocks": [12, 13, 14, 15], "acquisition_steps": 2, "consolidation_steps": 2, "lr": 0.000003, "kl_weight": 4, "replay_weight": 1},
+  "thresholds": {"acquisition_exact": 1.0, "retention_ce_delta": 0.05},
+  "train": [
+    {"prompt": "Question: Notes: Mira has code 42. What code belongs to Mira? Give only the code. Answer:", "answer": " 42"},
+    {"prompt": "Question: Notes: Tavo has code 17. What code belongs to Tavo? Give only the code. Answer:", "answer": " 17"}
+  ],
+  "acquisition_eval": [
+    {"prompt": "Question: Notes: Luma has code 63. What code belongs to Luma? Give only the code. Answer:", "answer": " 63"},
+    {"prompt": "Question: Notes: Reni has code 28. What code belongs to Reni? Give only the code. Answer:", "answer": " 28"}
+  ],
+  "retention": [
+    {"prompt": "Question: Notes: Sera has code 19. What code belongs to Sera? Give only the code. Answer:", "answer": " 19"},
+    {"prompt": "Question: Notes: Bavo has code 51. What code belongs to Bavo? Give only the code. Answer:", "answer": " 51"}
+  ],
+  "kl_inputs": ["A short note can contain a name and a number. Read the note carefully.", "A record describes one item. Different records can describe different items."]
+}

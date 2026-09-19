@@ -1,0 +1,6 @@
+# Recorded local environment; install the correct CPU/CUDA torch wheel separately.
+# Full build identity and hardware: evidence/RELEASE_VALIDATION.json
+torch==2.13.0
+numpy==2.5.1
+scipy==1.18.0
+tiktoken==0.14.0

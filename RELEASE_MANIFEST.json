@@ -1,0 +1,174 @@
+{
+  "version": "0.1.0",
+  "scope": "declared source and evidence files; excludes this manifest itself",
+  "files": {
+    ".github/workflows/tests.yml": {
+      "sha256": "8bd5606f373621dfc78f571a7c61ab016d9ad234bac9c45545598b7adfd7c70b",
+      "bytes": 435
+    },
+    ".gitignore": {
+      "sha256": "6e2f29ecad943291bd2fc3939011d341ac955ee83e1fe90cee5370080c7cb334",
+      "bytes": 110
+    },
+    "artifacts/reader-consolidated-79701/MANIFEST.json": {
+      "sha256": "b301509868ee27d3b353ade5781d4834d9968f161fc39f77745792087ddfa62f",
+      "bytes": 15078
+    },
+    "CITATION.cff": {
+      "sha256": "6e5f32db456cbde31e976f19c0aac73e858d5b919732266853a29276035a3a62",
+      "bytes": 511
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "7bd0a174f3ae80b846ae0c473ee32b123a484ec3d8ab227d76a791e74ba04eaf",
+      "bytes": 1221
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "8e8c6ffd555c5a563d4dc9f86d50f11eb6a79a524faa98887140226b3428ddc1",
+      "bytes": 3333
+    },
+    "docs/ARTIFACTS.md": {
+      "sha256": "8b045d0bacdacff33fe61de0b11c7b15a146ceed59b91b0609d671bcafa85496",
+      "bytes": 1323
+    },
+    "docs/DATA_AND_LICENSES.md": {
+      "sha256": "f9cb1835b95d480621bd6378666ddc02c45147c0ad7eddf8b540414798fb3ef3",
+      "bytes": 2563
+    },
+    "docs/MODEL_CARD.md": {
+      "sha256": "72b0429ec105efa24d9539d8a292f635e4d7517e70c8a602892902ff0bb4c7c1",
+      "bytes": 2832
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "sha256": "360d49d5691142c9e6222ba805f9f9a979a020a46745101bce2e721102e0cb85",
+      "bytes": 4476
+    },
+    "docs/RESULTS.md": {
+      "sha256": "e4ed8d84f10d12cc70b38536b86bc9343f6bc50494706ef373765782fe8e89d7",
+      "bytes": 6133
+    },
+    "docs/ROADMAP.md": {
+      "sha256": "ceaa49e43df08b449095aeafeb67ce1c6f495cd6fcc9ecbb77ba28acb4f22b41",
+      "bytes": 1853
+    },
+    "docs/WORKFLOW.md": {
+      "sha256": "4f7d62609d4ada599a12b601f61daf4d5149658af5a68461871f9045500b696f",
+      "bytes": 3805
+    },
+    "evidence/EXPORT_PROVENANCE.json": {
+      "sha256": "b6906525deee1d06b0040deda88d26649f4bc0250566db8c73ba35c9dd85c811",
+      "bytes": 1258
+    },
+    "evidence/generation_examples.json": {
+      "sha256": "5f4ad897d53c27f7e9d55834041f539d7baa4d0136bd840c56e8b6290199ada8",
+      "bytes": 221217
+    },
+    "evidence/owner_check_results.json": {
+      "sha256": "6152422a5b091c8dc71ef9c0c5905e95fef528c44a4bf30f1d36f0717685ae29",
+      "bytes": 116770
+    },
+    "evidence/PACKAGE_VALIDATION.json": {
+      "sha256": "4515c3184326854adb5bc29f20d5d6783b248a5e3b89ddceb30298c01325ad39",
+      "bytes": 282
+    },
+    "evidence/query_construction_examples.json": {
+      "sha256": "4ef4db800c0d9344dc7124581d105f20749704727b966d0b46324676993bd3da",
+      "bytes": 61987
+    },
+    "evidence/query_construction_results.json": {
+      "sha256": "9c1b65f1016cdc2a3da6a5ed70a3135d5905f9903f2fcf1e8c3f548c2fe354ce",
+      "bytes": 49241
+    },
+    "evidence/RELEASE_VALIDATION.json": {
+      "sha256": "3c253e749584bffed4a5f6b229679411abb6f845f498ade1cd31ac5f00a546ef",
+      "bytes": 2409
+    },
+    "evidence/SOURCE_LINEAGE.json": {
+      "sha256": "23516b6ee5343b8fe2aaf173ee0960b28934f37dcac966fccbe7063fa9aa3dff",
+      "bytes": 641
+    },
+    "examples/lesson.json": {
+      "sha256": "3020256aa1b944362b32d7c6d39e85c43b67533def1703ef558897f0b888abe7",
+      "bytes": 1384
+    },
+    "gcl/__init__.py": {
+      "sha256": "7af27b1465cf9db1c2a602b56cfd79407e85fe919586cbcf47a2164060067b7e",
+      "bytes": 77
+    },
+    "gcl/__main__.py": {
+      "sha256": "29c0970d0ebf6da00a697b2287a6218db43c0f65d009f1d11f79bc5e50f5fe4b",
+      "bytes": 889
+    },
+    "gcl/assets/gpt2.json": {
+      "sha256": "c57da180d7fad7ff069654e4b76848277e06590291c71d45106047a141108545",
+      "bytes": 2444032
+    },
+    "gcl/attention.py": {
+      "sha256": "004d4d2c5daccb472650f86053aee02976b75051906e4383928eab48ccabc04d",
+      "bytes": 1776
+    },
+    "gcl/experiment.py": {
+      "sha256": "c36548dfd3faf923f1e8163f57bda4acbad91a2621412ba23ecff1431cf86d4b",
+      "bytes": 8273
+    },
+    "gcl/geometry.py": {
+      "sha256": "9489bebdcae212d3b307576966d63f749084e6ec73b2bd33381424b399b5b884",
+      "bytes": 5104
+    },
+    "gcl/io.py": {
+      "sha256": "66365b7b6cc0751d30ec9e8b80412bd2d175bd6aec9ff54755d114fbca091e6b",
+      "bytes": 4010
+    },
+    "gcl/model.py": {
+      "sha256": "a98f5e971d1c3802e67bad5646f447516aaedc298c1bd4893343ecf166bae42d",
+      "bytes": 9959
+    },
+    "gcl/transactions.py": {
+      "sha256": "515b39163257a7e45378a8647b3857ce230e915e6e4b81f6eaf333362ab5c77a",
+      "bytes": 7252
+    },
+    "LICENSE": {
+      "sha256": "ad1ccb359bf1ae5ae5318cc8f211763ab5f6f329c4b7ca0289c8f99712ef9f50",
+      "bytes": 1094
+    },
+    "pyproject.toml": {
+      "sha256": "cdebbd6a592d348aea695c14073422a7dc346aef2063882ede29f518a2501e95",
+      "bytes": 643
+    },
+    "README.md": {
+      "sha256": "5bf2dc9bb4d195df902b7d58cb33ee03556406583ad1da0e6cd261a2b5068b9b",
+      "bytes": 5375
+    },
+    "RELEASE_NOTES.md": {
+      "sha256": "ab75d6793e183963c65c53aa594973fa2d80ef61ce30f360e547b94c45699522",
+      "bytes": 1213
+    },
+    "requirements-tested.txt": {
+      "sha256": "37b19d6855e3c96932d415c690dc94aabb8847e1c2985904b02c09ada0f3a0eb",
+      "bytes": 210
+    },
+    "SECURITY.md": {
+      "sha256": "4788dc2cb43bb8a92041aa3b0337ef81f56ca214fc20c22168a899582c2e3fa0",
+      "bytes": 992
+    },
+    "tests/test_model.py": {
+      "sha256": "bfe5ee34c6e987fcb8991cbb49f7a78f87049263ceaf23225fedefa8008b569d",
+      "bytes": 3063
+    },
+    "tests/test_transactions.py": {
+      "sha256": "80eb3b48c7949d99170b6154db46992362be130bdbfa94878267ac05632ab68d",
+      "bytes": 5680
+    },
+    "third_party/GPT2_LICENSE.txt": {
+      "sha256": "0dbeda4bc78823b1d67ec0ee414d8690ee4cad826bc9c147b215adc3af202436",
+      "bytes": 1403
+    },
+    "third_party/TIKTOKEN_LICENSE.txt": {
+      "sha256": "418cb499b436128d653d79941333a5437b7be2ea9213dcc2f04d15d5d2c51d86",
+      "bytes": 1078
+    },
+    "tools/verify_release.py": {
+      "sha256": "91c2c0c6d7d9557cbc0cf5ba07e8a806b4fb121f3ad05c35200b80202ccd050f",
+      "bytes": 751
+    }
+  }
+}

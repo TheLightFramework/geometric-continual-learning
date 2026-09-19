@@ -1,0 +1,25 @@
+{
+  "transformation": "JSON formatting; acquisition/consolidation terminology translation; private absolute artifact paths replaced by an explicit omission marker. No numeric values changed. Public evidence is contaminated for future confirmation.",
+  "files": [
+    {
+      "output": "owner_check_results.json",
+      "source_sha256": "22ef290ead49f61ee92e5950920fb35473af3cbab7ebe5fb7a9c48ce9f09e089",
+      "output_sha256": "6152422a5b091c8dc71ef9c0c5905e95fef528c44a4bf30f1d36f0717685ae29"
+    },
+    {
+      "output": "generation_examples.json",
+      "source_sha256": "f61e0a273daaf3583f08af4c1423430434b640e11ea7d4022ee53c8adb8e5aa7",
+      "output_sha256": "5f4ad897d53c27f7e9d55834041f539d7baa4d0136bd840c56e8b6290199ada8"
+    },
+    {
+      "output": "query_construction_results.json",
+      "source_sha256": "a9ad47ce6ddcb37c8ec45e6aed7d869a11127cc723fba9fd3679b215b8b6e3d6",
+      "output_sha256": "9c1b65f1016cdc2a3da6a5ed70a3135d5905f9903f2fcf1e8c3f548c2fe354ce"
+    },
+    {
+      "output": "query_construction_examples.json",
+      "source_sha256": "f9191dc2a9f6a9fb63471dc7ec71fb10e0641a3c74304a857067d83a0e99331e",
+      "output_sha256": "4ef4db800c0d9344dc7124581d105f20749704727b966d0b46324676993bd3da"
+    }
+  ]
+}

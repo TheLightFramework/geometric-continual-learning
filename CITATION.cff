@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software release and specify the exact commit or release tag used."
+title: "Geometric Continual Learning: Research Prototype"
+authors:
+  - family-names: Charbonneau
+    given-names: Jean
+version: 0.1.0
+date-released: 2026-09-19
+license: MIT
+type: software
+abstract: "A geometric residual language model, controlled local-update evidence, and an auditable acquisition/consolidation checkpoint workflow. Partial research prototype; no general lifelong-memory claim."

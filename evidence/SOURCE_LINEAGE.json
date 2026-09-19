@@ -1,0 +1,10 @@
+{
+  "method": "AST extraction of unchanged Attention and Complex classes; model import relocation only; transaction module unchanged; tokenizer unchanged.",
+  "input_sha256": {
+    "model": "ebc76af2d3c67cf131d4c738bca2b7bf48810d819d57bad2de8f4fbd4f8f36a2",
+    "attention_container": "d76c50f3706b70453604fdc451a664854c9df1f4567ef58717a7646cfd21b5a1",
+    "geometry_container": "ebdcf221339fc0f9254fca390ffedfd42c2efd28cb40e2f20bd330d82f381b00",
+    "transaction_module": "17f512a0c28af61f79547d56cf7e87197ec9ca3ccc4e645025bcc041f1a8fa74",
+    "tokenizer": "c57da180d7fad7ff069654e4b76848277e06590291c71d45106047a141108545"
+  }
+}

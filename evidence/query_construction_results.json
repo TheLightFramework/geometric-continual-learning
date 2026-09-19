@@ -1,0 +1,1514 @@
+{
+  "cells": {
+    "79801": {
+      "ACQUISITION": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/none/none/plain/shared": 0.5,
+            "what/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 0.0,
+            "what/none/none/plain/unshared": 0.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/from these notes/plain/shared": 0.5,
+            "what/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 0.0,
+            "what/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 0.5,
+            "what/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 0.0,
+            "what/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/from these notes/plain/shared": 0.5,
+            "what/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 0.0,
+            "what/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 0.5,
+            "what/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 0.0,
+            "what/after/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5,
+            "retrieve/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.0,
+            "retrieve/none/none/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5,
+            "retrieve/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.0,
+            "retrieve/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.0,
+            "retrieve/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5,
+            "retrieve/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.0,
+            "retrieve/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5,
+            "retrieve/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.0,
+            "retrieve/after/according to these notes/plain/unshared": 0.0
+          }
+        }
+      },
+      "CHECK": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/before/from these notes/plain/shared": 1.0,
+            "what/before/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 1.0,
+            "what/before/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/after/from these notes/plain/shared": 1.0,
+            "what/after/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 1.0,
+            "what/after/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 1.0,
+            "what/after/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 1.0,
+            "what/after/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 30,
+          "accuracy": 0.625,
+          "floor": 0.5833333333333334,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5833333333333334,
+            "retrieve/none/none/plain/unshared": 0.6666666666666666
+          },
+          "capped": 0,
+          "owner_perfect": 0.25,
+          "present": 0.25,
+          "false_unknown": 0.75,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.25,
+          "pairs": 24,
+          "pair_floor": 0.16666666666666666,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.16666666666666666,
+            "retrieve/none/none/plain/unshared": 0.3333333333333333
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 28,
+          "accuracy": 0.5833333333333334,
+          "floor": 0.5833333333333334,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5833333333333334,
+            "retrieve/before/from these notes/plain/unshared": 0.5833333333333334
+          },
+          "capped": 0,
+          "owner_perfect": 0.16666666666666666,
+          "present": 0.16666666666666666,
+          "false_unknown": 0.8333333333333334,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.16666666666666666,
+          "pairs": 24,
+          "pair_floor": 0.16666666666666666,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.16666666666666666,
+            "retrieve/before/from these notes/plain/unshared": 0.16666666666666666
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 32,
+          "accuracy": 0.6666666666666666,
+          "floor": 0.5833333333333334,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5833333333333334,
+            "retrieve/before/according to these notes/plain/unshared": 0.75
+          },
+          "capped": 0,
+          "owner_perfect": 0.3333333333333333,
+          "present": 0.3333333333333333,
+          "false_unknown": 0.6666666666666666,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.3333333333333333,
+          "pairs": 24,
+          "pair_floor": 0.16666666666666666,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.16666666666666666,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 26,
+          "accuracy": 0.5416666666666666,
+          "floor": 0.5416666666666666,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5416666666666666,
+            "retrieve/after/from these notes/plain/unshared": 0.5416666666666666
+          },
+          "capped": 0,
+          "owner_perfect": 0.08333333333333333,
+          "present": 0.08333333333333333,
+          "false_unknown": 0.9166666666666666,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.08333333333333333,
+          "pairs": 24,
+          "pair_floor": 0.08333333333333333,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.08333333333333333,
+            "retrieve/after/from these notes/plain/unshared": 0.08333333333333333
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 26,
+          "accuracy": 0.5416666666666666,
+          "floor": 0.5416666666666666,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5416666666666666,
+            "retrieve/after/according to these notes/plain/unshared": 0.5416666666666666
+          },
+          "capped": 0,
+          "owner_perfect": 0.08333333333333333,
+          "present": 0.08333333333333333,
+          "false_unknown": 0.9166666666666666,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.08333333333333333,
+          "pairs": 24,
+          "pair_floor": 0.08333333333333333,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.08333333333333333,
+            "retrieve/after/according to these notes/plain/unshared": 0.08333333333333333
+          }
+        }
+      }
+    },
+    "79802": {
+      "ACQUISITION": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/none/none/plain/shared": 0.5,
+            "what/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 0.0,
+            "what/none/none/plain/unshared": 0.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/from these notes/plain/shared": 0.5,
+            "what/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 0.0,
+            "what/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 0.5,
+            "what/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 0.0,
+            "what/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/from these notes/plain/shared": 0.5,
+            "what/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 0.0,
+            "what/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 0.5,
+            "what/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 0.0,
+            "what/after/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5,
+            "retrieve/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.0,
+            "retrieve/none/none/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5,
+            "retrieve/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.0,
+            "retrieve/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.0,
+            "retrieve/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5,
+            "retrieve/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.0,
+            "retrieve/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5,
+            "retrieve/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.0,
+            "retrieve/after/according to these notes/plain/unshared": 0.0
+          }
+        }
+      },
+      "CHECK": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 47,
+          "accuracy": 0.9791666666666666,
+          "floor": 0.9583333333333334,
+          "cells": {
+            "what/before/from these notes/plain/shared": 0.9583333333333334,
+            "what/before/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.9583333333333334,
+          "present": 0.9583333333333334,
+          "false_unknown": 0.041666666666666664,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.9583333333333334,
+          "pairs": 24,
+          "pair_floor": 0.9166666666666666,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 0.9166666666666666,
+            "what/before/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 47,
+          "accuracy": 0.9791666666666666,
+          "floor": 0.9583333333333334,
+          "cells": {
+            "what/after/from these notes/plain/shared": 0.9583333333333334,
+            "what/after/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.9583333333333334,
+          "present": 0.9583333333333334,
+          "false_unknown": 0.041666666666666664,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.9583333333333334,
+          "pairs": 24,
+          "pair_floor": 0.9166666666666666,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 0.9166666666666666,
+            "what/after/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 47,
+          "accuracy": 0.9791666666666666,
+          "floor": 0.9583333333333334,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 0.9583333333333334,
+            "what/after/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 0.9583333333333334,
+          "present": 0.9583333333333334,
+          "false_unknown": 0.041666666666666664,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.9583333333333334,
+          "pairs": 24,
+          "pair_floor": 0.9166666666666666,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 0.9166666666666666,
+            "what/after/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5,
+            "retrieve/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.0,
+            "retrieve/none/none/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5,
+            "retrieve/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.0,
+            "retrieve/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.0,
+            "retrieve/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5,
+            "retrieve/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.0,
+            "retrieve/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5,
+            "retrieve/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.0,
+            "retrieve/after/according to these notes/plain/unshared": 0.0
+          }
+        }
+      }
+    },
+    "79803": {
+      "ACQUISITION": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/none/none/plain/shared": 0.5,
+            "what/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 0.0,
+            "what/none/none/plain/unshared": 0.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/from these notes/plain/shared": 0.5,
+            "what/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 0.0,
+            "what/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 0.5,
+            "what/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 0.0,
+            "what/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/from these notes/plain/shared": 0.5,
+            "what/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 0.0,
+            "what/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 0.5,
+            "what/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 0.0,
+            "what/after/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5,
+            "retrieve/none/none/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.0,
+            "retrieve/none/none/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5,
+            "retrieve/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.0,
+            "retrieve/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.0,
+            "retrieve/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5,
+            "retrieve/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.0,
+            "retrieve/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5,
+            "retrieve/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 0.0,
+          "copied_code": 1.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.0,
+            "retrieve/after/according to these notes/plain/unshared": 0.0
+          }
+        }
+      },
+      "CHECK": {
+        "what/none/none": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/none/none/plain/shared": 1.0,
+            "what/none/none/plain/unshared": 1.0
+          }
+        },
+        "what/before/from these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/before/from these notes/plain/shared": 1.0,
+            "what/before/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/before/from these notes/plain/shared": 1.0,
+            "what/before/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/before/according to these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/before/according to these notes/plain/shared": 1.0,
+            "what/before/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/from these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/after/from these notes/plain/shared": 1.0,
+            "what/after/from these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/after/from these notes/plain/shared": 1.0,
+            "what/after/from these notes/plain/unshared": 1.0
+          }
+        },
+        "what/after/according to these notes": {
+          "n": 48,
+          "exact": 48,
+          "accuracy": 1.0,
+          "floor": 1.0,
+          "cells": {
+            "what/after/according to these notes/plain/shared": 1.0,
+            "what/after/according to these notes/plain/unshared": 1.0
+          },
+          "capped": 0,
+          "owner_perfect": 1.0,
+          "present": 1.0,
+          "false_unknown": 0.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 1.0,
+          "pairs": 24,
+          "pair_floor": 1.0,
+          "pair_cells": {
+            "what/after/according to these notes/plain/shared": 1.0,
+            "what/after/according to these notes/plain/unshared": 1.0
+          }
+        },
+        "retrieve/none/none": {
+          "n": 48,
+          "exact": 25,
+          "accuracy": 0.5208333333333334,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/none/none/plain/shared": 0.5,
+            "retrieve/none/none/plain/unshared": 0.5416666666666666
+          },
+          "capped": 0,
+          "owner_perfect": 0.041666666666666664,
+          "present": 0.041666666666666664,
+          "false_unknown": 0.9583333333333334,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.041666666666666664,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/none/none/plain/shared": 0.0,
+            "retrieve/none/none/plain/unshared": 0.08333333333333333
+          }
+        },
+        "retrieve/before/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/from these notes/plain/shared": 0.5,
+            "retrieve/before/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/from these notes/plain/shared": 0.0,
+            "retrieve/before/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/before/according to these notes": {
+          "n": 48,
+          "exact": 25,
+          "accuracy": 0.5208333333333334,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.5416666666666666,
+            "retrieve/before/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.041666666666666664,
+          "present": 0.041666666666666664,
+          "false_unknown": 0.9583333333333334,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.041666666666666664,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/before/according to these notes/plain/shared": 0.08333333333333333,
+            "retrieve/before/according to these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/from these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/from these notes/plain/shared": 0.5,
+            "retrieve/after/from these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/from these notes/plain/shared": 0.0,
+            "retrieve/after/from these notes/plain/unshared": 0.0
+          }
+        },
+        "retrieve/after/according to these notes": {
+          "n": 48,
+          "exact": 24,
+          "accuracy": 0.5,
+          "floor": 0.5,
+          "cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.5,
+            "retrieve/after/according to these notes/plain/unshared": 0.5
+          },
+          "capped": 0,
+          "owner_perfect": 0.0,
+          "present": 0.0,
+          "false_unknown": 1.0,
+          "absent": 1.0,
+          "copied_code": 0.0,
+          "pair_accuracy": 0.0,
+          "pairs": 24,
+          "pair_floor": 0.0,
+          "pair_cells": {
+            "retrieve/after/according to these notes/plain/shared": 0.0,
+            "retrieve/after/according to these notes/plain/unshared": 0.0
+          }
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "what/from these notes": {
+      "before": [
+        1.0,
+        0.9583333333333334,
+        1.0
+      ],
+      "after": [
+        1.0,
+        0.9583333333333334,
+        1.0
+      ],
+      "gains": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "spread": 0.04166666666666663,
+      "consistent_candidate": false
+    },
+    "what/according to these notes": {
+      "before": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "after": [
+        1.0,
+        0.9583333333333334,
+        1.0
+      ],
+      "gains": [
+        0.0,
+        0.04166666666666663,
+        0.0
+      ],
+      "mean": 0.013888888888888876,
+      "spread": 0.04166666666666663,
+      "consistent_candidate": false
+    },
+    "retrieve/from these notes": {
+      "before": [
+        0.16666666666666666,
+        0.0,
+        0.0
+      ],
+      "after": [
+        0.08333333333333333,
+        0.0,
+        0.0
+      ],
+      "gains": [
+        0.08333333333333333,
+        0.0,
+        0.0
+      ],
+      "mean": 0.027777777777777776,
+      "spread": 0.16666666666666666,
+      "consistent_candidate": false
+    },
+    "retrieve/according to these notes": {
+      "before": [
+        0.3333333333333333,
+        0.0,
+        0.041666666666666664
+      ],
+      "after": [
+        0.08333333333333333,
+        0.0,
+        0.0
+      ],
+      "gains": [
+        0.25,
+        0.0,
+        0.041666666666666664
+      ],
+      "mean": 0.09722222222222222,
+      "spread": 0.3333333333333333,
+      "consistent_candidate": false
+    }
+  },
+  "length_matching": {
+    "79801": {
+      "comparisons": 192,
+      "equal_input_length": 96,
+      "before_minus_after_length_counts": {
+        "1": 96,
+        "0": 96
+      },
+      "matched_present_gain": 0.16666666666666666
+    },
+    "79802": {
+      "comparisons": 192,
+      "equal_input_length": 96,
+      "before_minus_after_length_counts": {
+        "1": 96,
+        "0": 96
+      },
+      "matched_present_gain": 0.0
+    },
+    "79803": {
+      "comparisons": 192,
+      "equal_input_length": 96,
+      "before_minus_after_length_counts": {
+        "1": 96,
+        "0": 96
+      },
+      "matched_present_gain": 0.020833333333333332
+    }
+  },
+  "verdict": "QUERY_PLACEMENT_CANDIDATE_NOT_SUPPORTED_BY_DECLARED_RULE"
+}
